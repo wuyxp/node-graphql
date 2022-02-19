@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "6MiYJFsexdsD0bfGzD6V_",
+      "name": "aaa",
+      "age": 15
+    },
+    {
+      "id": "n0Og_pxthTLaI9oJ1K7Jp",
+      "name": "bbb",
+      "age": 20
+    },
+    {
+      "id": "YJ9Fvv45LBR-O4dIMWD8u",
+      "name": "ccc",
+      "age": 30
+    }
+  ],
+  "posts": []
+}

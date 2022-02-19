@@ -1,0 +1,26 @@
+type User {
+  id: ID
+  name: String
+  age: Int
+}
+
+input UserInput {
+  name: String!
+  age: Int!
+}
+
+input UserUpdate {
+  name: String
+  age: Int
+}
+
+type Query {
+  UserList: [User!]
+  User(id: ID!): User
+}
+
+type Mutation {
+  SaveUser(input: UserInput!): User!
+  DeleteUser(id: ID!): Boolean!
+  UpdateUser(id: ID!, input: UserUpdate): User!
+}
